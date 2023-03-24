@@ -6,10 +6,6 @@ authors = ["Adam Romano <adam.romano@sensynehealth.com>"]
 keywords = ["Swagger", "Observations"]
 repository = "https://github.com/draysontechnologies/dhos-observations-api"
 
-[[tool.poetry.source]]
-name = "sensynehealth"
-url = "https://pypi.fury.io/sensynehealth/"
-
 [tool.poetry.dependencies]
 python = "^3.9"
 flask-batteries-included = {version="3.*", extras = ["pgsql", "apispec"]}
